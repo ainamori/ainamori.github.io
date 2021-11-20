@@ -11,5 +11,4 @@ This is the test page for the first deploy.
 ## Menu
 
 - [Ansible](ansible/index.html)
-
-
+- [kubernetes](kubernetes/index.html)
