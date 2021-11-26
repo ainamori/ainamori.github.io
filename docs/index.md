@@ -1,5 +1,5 @@
 ---
-title: "Test Index"
+title: "ainamori tech blog."
 date: 2021-02-10T11:13:39+09:00
 draft: true
 ---
