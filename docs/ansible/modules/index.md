@@ -22,4 +22,4 @@ utilsはcollectionという事になっている。
 しかしながら通常であれば`pip install ansible` といった具合に`ansible`パッケージをインストールするかと思われるので
 問題なく使えると思う。
 
-- [utils.update_fact](utils.update_fact.md)
+- [utils_update_fact](utils.update_fact.md)
