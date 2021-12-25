@@ -1,0 +1,52 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: master
+    hooks:
+      - id: markdownlint
+        # ignore line length of makrdownlint
+        args: [-r, ~MD013]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: trailing-whitespace
+      # - id: pretty-format-json
+      # - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    rev: v1.0.5
+    hooks:
+      - id: python-bandit-vulnerability-check
+        args:
+          [
+            --verbose,
+            --ini,
+            .banditrc,
+            -ll,
+            --skip,
+            "B321,B402",
+            --recursive,
+            src/lib,
+          ]
+  - repo: https://github.com/psf/black
+    rev: 21.7b0
+    hooks:
+      - id: black
+        language_version: python3
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: flake8
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.9.2
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]
+#- repo: https://github.com/pre-commit/mirrors-mypy
+#  rev: v0.910
+#  hooks:
+#    - id: mypy
+#      args: [--no-strict-optional, --ignore-missing-imports]

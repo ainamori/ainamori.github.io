@@ -12,12 +12,9 @@ This is the test page for the first deploy.
 
 - [Ansible](ansible/index.html)
 - [kubernetes](kubernetes/index.html)
+- [Python](python/index.html)
 
 ## Memo
-
-気になった物を残しておく為の章
-
-- https://github.com/mingrammer/diagrams
 
 
 ## Old tech blog site.
