@@ -6,15 +6,17 @@ draft: true
 
 # ainamori's document
 
-This is the test page for the first deploy.
+日々の技術ドキュメントや書き物を残すページ
 
 ## Menu
 
+- [blog](blog/index.html)
+
+## Tech memo
 - [Ansible](ansible/index.html)
 - [kubernetes](kubernetes/index.html)
 - [Python](python/index.html)
 
-## Memo
 
 
 ## Old tech blog site.
