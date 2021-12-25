@@ -9,4 +9,4 @@ Python関連のページ
 
 ## Memo
 
-- [https://github.com/mingrammer/diagrams](python diagram)
+- [https://github.com/mingrammer/diagrams]
