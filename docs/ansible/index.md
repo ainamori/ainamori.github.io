@@ -27,3 +27,8 @@ Ansible関連のページ
 ### playbooks
 
 - [Ansible playbooks index](playbooks/index.md)
+
+
+## Visualization
+- Memo
+  - https://github.com/measuresforjustice/textricator/issues/26
